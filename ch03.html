@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <nav> : navication 메뉴, 다른 문서로 이동하기 위한 네비게이션 영역을 의미 -->
+    <nav>
+        <ul>
+            <li><a href="#홈">홈</a></li>
+            <li><a href="#서비스">서비스</a></li>
+            <li><a href="#연락처">연락처</a></li>
+        </ul>
+    </nav>
+<header>
+    <!-- 문서의 제목 또는 주요 내용 -->
+
+</header>
+
+<main>
+    <!-- 문서의 컨텐츠 -->
+    <section>
+        <article>         
+            <h1>새로운 기술의 도입</h1>
+            <p>새로운 기술이 도입되었다 이 기술은 다양한 분야에서 혁신을 가져오고 있다.</p>
+            <p>기술 도입에 대한 세부 정보와 이에 대한 영향에 대해 논의할 것이다.</p>
+        </article>
+        <article>
+            <h2>댓글</h2>
+            <p>홍길동: 유익한 정보입니다.</p>
+        </article>
+    </section>
+    <div>
+        <h1>웹 페이지 제목</h1>
+        <p>이곳에는 웹페이지 내용이 들어갑니다.</p>
+    </div>
+    <div>
+        <h2>다양한 입력 필드</h2>
+        <p>
+            <!-- label for - for: id와 매칭이 된다는 메타정보를 전달 -->
+            <label for="text">텍스트 입력필드</label>       
+            <input type="text" id="text"name="text">
+        </p>
+        <p>
+            <label for="pass">비밀번호 입력필드</label>
+            <input type="password" id="pass", name="pass">
+        </p>
+        <p>
+            <label for="data">날짜 입력 필드</label>
+            <input type="date" id="date" name="date">
+        </p>
+        <p>
+            <label for="range">슬라이드 필드</label>
+            <input type="range" id="range" name="range" min="0" max="100">
+        </p>
+        <p>
+            <label for="post">멀티라인 텍스트 필드</label>
+            <textarea id="post" name="post" rows="4" cols="50">기본 입력 내용</textarea>
+        </p>
+        <p>
+            <label for="dropdown">드롭타운 필드</label>
+            <select id="dropdown" name="dropdown">
+                <option value="item1">항목1</option>
+                <option value="item2">항목2</option>
+                <option value="item3">항목3</option>
+                <option value="item4">항목4</option>
+            </select>
+        </p>
+        <p>
+            <button>버튼</button>
+        </p>
+        <p>
+            <label for="check">체크박스 필드</label>
+            <input type="checkbox" id="check" name="check" checked="Yes">
+        </p>
+    </div>
+
+</main>
+
+<footer>
+    <!-- 웹 페이지의 저작원이나 연락처 표기(기타정보) -->
+</footer>
+</body>
+</html>
+
+
+
+<!--
+     태그들
+    <div>: 순수 컨테이너 태그, 컨텐츠를 그룹화한다. </div>
+
+    입력 태그들
+    <input>: 사용자가 숫자,문자,날짜등의 정보를 입력할 수있는 필드를 생성한다. 다양한 유형을 사용하기 위해선 type속성을 사용한다.
+-->
